@@ -17,6 +17,7 @@
 		D6ABE7FB2CBCC4870080307F /* SampleParisLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */; };
 		D6ABE7FE2CBCCC670080307F /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE7FD2CBCCC670080307F /* Destination.swift */; };
 		D6ABE8002CBCCE2B0080307F /* MTPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE7FF2CBCCE2B0080307F /* MTPlacemark.swift */; };
+		D6ABE8022CBCDDEC0080307F /* DestinationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE8012CBCDDEC0080307F /* DestinationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleParisLocations.swift; sourceTree = "<group>"; };
 		D6ABE7FD2CBCCC670080307F /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 		D6ABE7FF2CBCCE2B0080307F /* MTPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTPlacemark.swift; sourceTree = "<group>"; };
+		D6ABE8012CBCDDEC0080307F /* DestinationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				BB9432DA2B41D76F007BAAC6 /* DestinationLocationsMapView.swift */,
+				D6ABE8012CBCDDEC0080307F /* DestinationsListView.swift */,
 			);
 			path = "Destinations Tab";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				BB9432CB2B41D633007BAAC6 /* StartTab.swift in Sources */,
 				D6ABE7FB2CBCC4870080307F /* SampleParisLocations.swift in Sources */,
+				D6ABE8022CBCDDEC0080307F /* DestinationsListView.swift in Sources */,
 				D6ABE7FE2CBCCC670080307F /* Destination.swift in Sources */,
 				BB9432DB2B41D76F007BAAC6 /* DestinationLocationsMapView.swift in Sources */,
 				D6ABE8002CBCCE2B0080307F /* MTPlacemark.swift in Sources */,
