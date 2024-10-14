@@ -11,13 +11,27 @@
 
 import SwiftUI
 import MapKit
+import SwiftData
 
 struct DestinationLocationsMapView: View {
     @State private var cameraPosition: MapCameraPosition = .automatic
+    @State private var visibleRegion: MKCoordinateRegion?
+    @Query private var destinations: [Destination]
+    @State private var destination: Destination?
     var body: some View {
         Map(
             position: $cameraPosition
-        ){
+        ) {
+            if let destination{
+                ForEach(destination.placemarks) {
+                    placemark in Marker(coordinate: placemark.coordinate) {
+                        Label(placemark.name, systemImage: "star")
+                    }
+                    .tint(.yellow)
+                }
+            }
+        }
+        /*{
 //            Marker(
 //                "Moulin Rouge",
 //                coordinate: CLLocationCoordinate2D(
@@ -69,9 +83,20 @@ struct DestinationLocationsMapView: View {
                 longitude: 2.351077
             ), radius: 5000)
             .foregroundStyle(.red.opacity(0.5))
-        }            .onAppear{
+        }
+             */
+        .onMapCameraChange(frequency: .onEnd){
+            context in
+            visibleRegion = context.region
+        }
+        .onAppear{
+            destination = destinations.first
+            if let region = destination?.region {
+                cameraPosition = .region(region)
+            }
             //                48.856788, 2.351077
-            let paris = CLLocationCoordinate2D(
+            /*
+             let paris = CLLocationCoordinate2D(
                 latitude: 48.856788,
                 longitude: 2.351077
             )
@@ -86,10 +111,12 @@ struct DestinationLocationsMapView: View {
             cameraPosition = .region(
                 parisRegion
             )
+             */
         }
     }
 }
 
 #Preview {
     DestinationLocationsMapView()
+        .modelContainer(Destination.preview)
 }

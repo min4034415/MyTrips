@@ -15,6 +15,8 @@
 		BB9432D92B41D747007BAAC6 /* TripMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9432D82B41D747007BAAC6 /* TripMapView.swift */; };
 		BB9432DB2B41D76F007BAAC6 /* DestinationLocationsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9432DA2B41D76F007BAAC6 /* DestinationLocationsMapView.swift */; };
 		D6ABE7FB2CBCC4870080307F /* SampleParisLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */; };
+		D6ABE7FE2CBCCC670080307F /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE7FD2CBCCC670080307F /* Destination.swift */; };
+		D6ABE8002CBCCE2B0080307F /* MTPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE7FF2CBCCE2B0080307F /* MTPlacemark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		BB9432D82B41D747007BAAC6 /* TripMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapView.swift; sourceTree = "<group>"; };
 		BB9432DA2B41D76F007BAAC6 /* DestinationLocationsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationLocationsMapView.swift; sourceTree = "<group>"; };
 		D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleParisLocations.swift; sourceTree = "<group>"; };
+		D6ABE7FD2CBCCC670080307F /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		D6ABE7FF2CBCCE2B0080307F /* MTPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTPlacemark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		BB9432C72B41D633007BAAC6 /* MyTrips */ = {
 			isa = PBXGroup;
 			children = (
+				D6ABE7FC2CBCCC4A0080307F /* Models */,
 				D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */,
 				BB9432C82B41D633007BAAC6 /* MyTripsApp.swift */,
 				BB9432CA2B41D633007BAAC6 /* StartTab.swift */,
@@ -93,6 +98,15 @@
 				BB9432DA2B41D76F007BAAC6 /* DestinationLocationsMapView.swift */,
 			);
 			path = "Destinations Tab";
+			sourceTree = "<group>";
+		};
+		D6ABE7FC2CBCCC4A0080307F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6ABE7FD2CBCCC670080307F /* Destination.swift */,
+				D6ABE7FF2CBCCE2B0080307F /* MTPlacemark.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +182,9 @@
 			files = (
 				BB9432CB2B41D633007BAAC6 /* StartTab.swift in Sources */,
 				D6ABE7FB2CBCC4870080307F /* SampleParisLocations.swift in Sources */,
+				D6ABE7FE2CBCCC670080307F /* Destination.swift in Sources */,
 				BB9432DB2B41D76F007BAAC6 /* DestinationLocationsMapView.swift in Sources */,
+				D6ABE8002CBCCE2B0080307F /* MTPlacemark.swift in Sources */,
 				BB9432C92B41D633007BAAC6 /* MyTripsApp.swift in Sources */,
 				BB9432D92B41D747007BAAC6 /* TripMapView.swift in Sources */,
 			);
