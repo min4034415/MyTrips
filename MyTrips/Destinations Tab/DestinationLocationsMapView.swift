@@ -16,7 +16,6 @@ import SwiftData
 struct DestinationLocationsMapView: View {
     @State private var cameraPosition: MapCameraPosition = .automatic
     @State private var visibleRegion: MKCoordinateRegion?
-    @Query private var destinations: [Destination]
     @State private var destination: Destination?
     var body: some View {
         Map(
