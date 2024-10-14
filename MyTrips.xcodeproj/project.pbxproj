@@ -14,6 +14,7 @@
 		BB9432D72B41D688007BAAC6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9432D62B41D688007BAAC6 /* Launch Screen.storyboard */; };
 		BB9432D92B41D747007BAAC6 /* TripMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9432D82B41D747007BAAC6 /* TripMapView.swift */; };
 		BB9432DB2B41D76F007BAAC6 /* DestinationLocationsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9432DA2B41D76F007BAAC6 /* DestinationLocationsMapView.swift */; };
+		D6ABE7FB2CBCC4870080307F /* SampleParisLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BB9432D62B41D688007BAAC6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BB9432D82B41D747007BAAC6 /* TripMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapView.swift; sourceTree = "<group>"; };
 		BB9432DA2B41D76F007BAAC6 /* DestinationLocationsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationLocationsMapView.swift; sourceTree = "<group>"; };
+		D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleParisLocations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		BB9432C72B41D633007BAAC6 /* MyTrips */ = {
 			isa = PBXGroup;
 			children = (
+				D6ABE7FA2CBCC4870080307F /* SampleParisLocations.swift */,
 				BB9432C82B41D633007BAAC6 /* MyTripsApp.swift */,
 				BB9432CA2B41D633007BAAC6 /* StartTab.swift */,
 				BB9432DC2B41D7D8007BAAC6 /* My Trip Tab */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB9432CB2B41D633007BAAC6 /* StartTab.swift in Sources */,
+				D6ABE7FB2CBCC4870080307F /* SampleParisLocations.swift in Sources */,
 				BB9432DB2B41D76F007BAAC6 /* DestinationLocationsMapView.swift in Sources */,
 				BB9432C92B41D633007BAAC6 /* MyTripsApp.swift in Sources */,
 				BB9432D92B41D747007BAAC6 /* TripMapView.swift in Sources */,
